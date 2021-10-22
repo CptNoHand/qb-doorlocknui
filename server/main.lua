@@ -135,7 +135,7 @@ end)
 
 
 
-RegisterCommand('newdoor', function(playerId, args, rawCommand)
+RegisterCommand('newdoors', function(playerId, args, rawCommand)
 	TriggerClientEvent('nui_doorlock:newDoorSetup', playerId, args)
 end, true)
 
